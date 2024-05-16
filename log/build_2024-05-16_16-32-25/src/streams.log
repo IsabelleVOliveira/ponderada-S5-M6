@@ -1,0 +1,37 @@
+[0.508s] Invoking command in '/home/isabelle/Documents/m6/github/ponderada-S5-M6/workspace/src': PYTHONPATH=/home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/prefix_override:/home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/src build --build-base /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build install --record /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/install.log --single-version-externally-managed install_data
+[0.692s] running egg_info
+[0.693s] creating ../../build/src/src.egg-info
+[0.693s] writing ../../build/src/src.egg-info/PKG-INFO
+[0.693s] writing dependency_links to ../../build/src/src.egg-info/dependency_links.txt
+[0.693s] writing entry points to ../../build/src/src.egg-info/entry_points.txt
+[0.693s] writing requirements to ../../build/src/src.egg-info/requires.txt
+[0.693s] writing top-level names to ../../build/src/src.egg-info/top_level.txt
+[0.694s] writing manifest file '../../build/src/src.egg-info/SOURCES.txt'
+[0.695s] reading manifest file '../../build/src/src.egg-info/SOURCES.txt'
+[0.696s] writing manifest file '../../build/src/src.egg-info/SOURCES.txt'
+[0.696s] running build
+[0.696s] running build_py
+[0.696s] creating /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build
+[0.696s] creating /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build/lib
+[0.696s] creating /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build/lib/src
+[0.696s] copying src/__init__.py -> /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build/lib/src
+[0.696s] copying src/move.py -> /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build/lib/src
+[0.697s] running install
+[0.697s] running install_lib
+[0.698s] creating /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/python3.10/site-packages/src
+[0.698s] copying /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build/lib/src/__init__.py -> /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/python3.10/site-packages/src
+[0.698s] copying /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build/lib/src/move.py -> /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/python3.10/site-packages/src
+[0.698s] byte-compiling /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/python3.10/site-packages/src/__init__.py to __init__.cpython-310.pyc
+[0.698s] byte-compiling /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/python3.10/site-packages/src/move.py to move.cpython-310.pyc
+[0.699s] running install_data
+[0.699s] creating /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/share/ament_index
+[0.699s] creating /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/share/ament_index/resource_index
+[0.699s] creating /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/share/ament_index/resource_index/packages
+[0.699s] copying resource/src -> /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/share/ament_index/resource_index/packages
+[0.700s] copying package.xml -> /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/share/src
+[0.700s] running install_egg_info
+[0.701s] Copying ../../build/src/src.egg-info to /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/python3.10/site-packages/src-0.0.0-py3.10.egg-info
+[0.702s] running install_scripts
+[0.721s] Installing start_moving script to /home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/src
+[0.722s] writing list of installed files to '/home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/install.log'
+[0.741s] Invoked command in '/home/isabelle/Documents/m6/github/ponderada-S5-M6/workspace/src' returned '0': PYTHONPATH=/home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/prefix_override:/home/isabelle/Documents/m6/github/ponderada-S5-M6/install/src/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/src build --build-base /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/build install --record /home/isabelle/Documents/m6/github/ponderada-S5-M6/build/src/install.log --single-version-externally-managed install_data
