@@ -1,3 +1,0 @@
-[console_scripts]
-start_moving = src.move:main
-
