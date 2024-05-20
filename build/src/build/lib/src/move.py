@@ -84,22 +84,29 @@ class Teleop(Node):
                         print("Andando para frente")
                     self.mensagem = False
                     target_linear_vel = min(target_linear_vel + LIN_VEL_STEP_SIZE, BURGER_MAX_LIN_VEL)
+                    if self.mensagem:
+                        print(f"Velocidade Linear Atual: {target_linear_vel}")
                 elif key == 'a':
                     if self.mensagem:
                         print("Virando para esquerda")
                     self.mensagem = False
                     target_angular_vel = min(target_angular_vel + ANG_VEL_STEP_SIZE, BURGER_MAX_ANG_VEL)
+                    print(f"Velocidade Angular Atual: {target_angular_vel}")
                 elif key == 'd':
                     if self.mensagem:
                         print("Virando para direita")
                     self.mensagem = False
                     target_angular_vel = max(target_angular_vel - ANG_VEL_STEP_SIZE, -BURGER_MAX_ANG_VEL)
+                    print(f"Velocidade Angular Atual: {target_angular_vel}")
                 elif key == 's':
                     if not self.mensagem:
                         print("Parando")
+                        print("Velocidade Linear Atual: 0.0")
+                        print("Velocidade Angular Atual: 0.0")
                     self.mensagem = True
                     target_linear_vel = 0.0
                     target_angular_vel = 0.0
+                    
 
                 self.last_key_pressed = key  # Update the last pressed key
 
