@@ -72,7 +72,7 @@ No sistema operacional do computador que será utilizado para controlar o robô 
 Na mesma janela de terminal, digite o seguinte comando para iniciar o build do workspace:
 `colcon build`
 
-Na mesma janela de terminal, digite o seguinte comando para habilitar o uso do pacote criado pela equipe SugarZ3ro:
+Na mesma janela de terminal, digite o seguinte comando para habilitar o uso do pacote criado:
 `source install/local_setup.bash`
 
 Na mesma janela de terminal, digite os seguintes comandos para limitar a comunicação via ROS a um domínio com ID 5 dentro da rede:
