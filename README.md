@@ -4,6 +4,19 @@ Desenvolvido por Isabelle Beatriz Vasquez Oliveira
 
 Este projeto é capaz de realizar a leitura das teclas pressionadas pelo usuário e, utilizando um publisher no tópico adequado, provocar a movimentação do robô.
 
+Nesse projeto, o usuario deve usar as seguintes teclas para movimentar o robô:
+- W:	aumenta velocidade linear do robô
+- A:	aumenta velocidade angular do robô em sentido anti-horário
+- D:	aumenta velocidade angular do robô em sentido horário
+- S:	anula a velocidade de movimentação do robô
+- Q:	interrompe a execução do código de movimentação do robô
+
+A tecla `S` é o botão de emergência desta aplicação, garantindo que o robô interrompa sua movimentação quando o usuário julgar necessário.
+
+Para garantir que o usuário receba feedback constante em relação à operação do robô, foi utilizado o método `print` para que o usuário visualize em formato de texto suas últimas decisões de movimentação, juntamente com a velocidade do robô, que é apresentada constantemente ao usuário.
+
+O vídeo de demonstração do funcionamento do projeto pode ser encontrado no link a seguir: https://youtu.be/ZsJmXcjVQBI
+
 ## Como executar?
 
 **Os requisitos de execução e o tutorial de execução têm como referência a documentação do projeto SugarZ3ro!**
