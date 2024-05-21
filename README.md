@@ -40,10 +40,8 @@ No sistema operacional da Raspberry contida no Turtlebot 3 a ser controlado, abr
     Também é necessário realizar a comunicação via SSH. Para isso, é necessário seguir os seguintes passos: 
     No sistema operacional da Raspberry do Turtlebot 3, abra uma janela de terminal e clone e dê build no repositório do projeto no diretório de sua preferência através dos comandos:
 
-    git clone https://github.com/Inteli-College/2024-1B-T08-EC06-G05.git
-    
-    cd 2024-1B-T08-EC06-G05/src/workspace
-    
+    git clone https://github.com/IsabelleVOliveira/ponderada-S5-M6.git
+        
     colcon build
     
     Na mesma janela de terminal, digite os seguintes comandos para instalar o pacote responsável por iniciar um servidor SSH e executá-lo.
@@ -63,25 +61,15 @@ No sistema operacional da Raspberry contida no Turtlebot 3 a ser controlado, abr
 
     Digite a senha de usuário que será solicitada pelo terminal.
 
-    Por fim, adentre o diretório no qual você clonou o repositório do projeto (no passo 2) e digite os seguintes comandos para executar a CLI de movimentação do robô:
-    
-    cd src/workspace
-    
-    source install/local_setup.bash
-    
-    ros2 run SugarZ3ro_pkg start_moving
-
 Na mesma janela de terminal, digite o seguinte comando para iniciar a comunicação entre a Raspberry e o microcontrolador do robô, bem como torná-lo apto a receber comandos de movimentação remotamente:
 `ros2 launch turtlebot3_bringup robot.launch.py`
 
 **Computador que vai controlar o robo**
 
 No sistema operacional do computador que será utilizado para controlar o robô de maneira remota, abra uma janela de terminal no diretório de sua preferência e clone o repositório através do seguinte comando:
-`git clone https://github.com/Inteli-College/2024-1B-T08-EC06-G05.git`
+`git clone https://github.com/IsabelleVOliveira/ponderada-S5-M6.git`
 
-Na mesma janela de terminal, digite os seguintes comandos para iniciar o build do workspace:
-`cd 2024-1B-T08-EC06-G05/src/workspace`
-
+Na mesma janela de terminal, digite o seguinte comando para iniciar o build do workspace:
 `colcon build`
 
 Na mesma janela de terminal, digite o seguinte comando para habilitar o uso do pacote criado pela equipe SugarZ3ro:
@@ -93,7 +81,7 @@ Na mesma janela de terminal, digite os seguintes comandos para limitar a comunic
 `source ~/.bashrc`
 
 Por fim, na mesma janela de terminal, digite o seguinte comando para executar o script responsável por inicializar a CLI para controle de movimentação do robô:
-`ros2 run SugarZ3ro_pkg start_moving`
+`ros2 run run start_moving`
 
 
 
