@@ -81,7 +81,7 @@ Na mesma janela de terminal, digite os seguintes comandos para limitar a comunic
 `source ~/.bashrc`
 
 Por fim, na mesma janela de terminal, digite o seguinte comando para executar o script responsável por inicializar a CLI para controle de movimentação do robô:
-`ros2 run run start_moving`
+`ros2 run run start_moving`.
 
 
 
